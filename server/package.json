@@ -1,0 +1,33 @@
+{
+  "name": "opensourcewebproject",
+  "version": "1.0.0",
+  "description": "This is an opensource project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon -r esm app.js",
+    "start": "node -r esm app.js"
+  },
+  "keywords": [
+    "api",
+    "web"
+  ],
+  "author": "All",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mongoose": "^7.1.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
